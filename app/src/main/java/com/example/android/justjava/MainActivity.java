@@ -62,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String createOrderSummary(String name, int quantity, int totalPrice,  boolean whippedCream, boolean chocolate){
-        String orderMessage = "Name:"+name+"\n";
-        orderMessage += "Quantity:" + quantity + "\n";
-        orderMessage += "Add whipped cream:"+whippedCream + "\n";
-        orderMessage += "Add chocolate:"+chocolate+"\n";
-        orderMessage += "Total:$"+totalPrice + "\n";
+        String orderMessage = getString(R.string.order_message_name, name) + "\n";
+        orderMessage += getString(R.string.order_message_quantity, quantity)+ "\n";
+        orderMessage += getString(R.string.order_message_whipped_cream,whippedCream) + "\n";
+        orderMessage += getString(R.string.order_message_chocolate, chocolate)+"\n";
+        orderMessage += getString(R.string.order_message_total,totalPrice) + "\n";
         orderMessage += getString(R.string.thank_you);
 
         return orderMessage;
