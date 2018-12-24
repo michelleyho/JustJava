@@ -14,11 +14,11 @@
     <string name="thank_you">Thank you</string>
 
     <!-- Order summary -->
-    <string name="order_message_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
-    <string name="order_message_quantity">Quantity: <xliff:g id="quantity" example="1">%s</xliff:g></string>
-    <string name="order_message_whipped_cream">Whipped Cream: <xliff:g id="whipped_cream" example="true">%s</xliff:g></string>
-    <string name="order_message_chocolate">Chocolate: <xliff:g id="chocolate" example="true">%s</xliff:g></string>
-    <string name="order_message_total">Total: <xliff:g  id="total" example="$50">%s</xliff:g></string>
+    <string name="order_message_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="order_message_quantity">Quantity: <xliff:g example="1" id="quantity">%s</xliff:g></string>
+    <string name="order_message_whipped_cream">Whipped Cream: <xliff:g example="true" id="whipped_cream">%s</xliff:g></string>
+    <string name="order_message_chocolate">Chocolate: <xliff:g example="true" id="chocolate">%s</xliff:g></string>
+    <string name="order_message_total">Total: <xliff:g example="$50" id="total">%s</xliff:g></string>
 
 
 </resources>
